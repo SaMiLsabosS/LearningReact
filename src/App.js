@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import ClassBasedComponent from './components/ClassBasedComponent';
+import FunctionalBasedComponent from './components/FunctionalBasedComponent';
+import PropExample from './PropExample';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +20,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <ClassBasedComponent />
+      <FunctionalBasedComponent />
     </div>
   );
 }
